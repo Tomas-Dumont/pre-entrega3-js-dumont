@@ -71,6 +71,7 @@ body {
 
 .navbar ul li a:hover {
     color: rgb(208, 44, 44);
+    transform: translateY(-1px);
 }
 
 
@@ -135,6 +136,11 @@ body {
     color: rgb(239, 53, 53);
 }
 
+#imagen-carrito{
+    width: 25px;
+}
 
-
-
+#imagen-carrito:hover{
+    transform: translateY(-1px);
+    color: rgb(239, 53, 53);
+}
